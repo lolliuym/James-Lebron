@@ -1,0 +1,1236 @@
+body {
+overflow:visible;
+overflow-x: hidden;
+font-family:Arial,'Helvetica Neue',Helvetica,sans-serif;
+color:#333;
+font-size:14px;
+line-height:20px
+}
+
+.section.hero {
+position:relative;
+z-index:10000;
+display:block;
+  margin: 0;
+overflow:visible;
+height:100vh;
+float:none;
+clear:none;
+background-color:transparent;
+-webkit-perspective:2000px;
+perspective:2000px;  
+}
+
+.wrap-hero {
+position:static;
+overflow:visible;
+width:100%;
+height:100%;
+margin:0;
+float:none;
+clear:none;
+background-color:hsla(56,75%,78%,.88);
+direction:ltr;
+font-size:14px;
+line-height:20px;
+font-style:normal;
+text-align:left;
+text-decoration:none;
+text-transform:none;
+  -webkit-transition: all 1.1s cubic-bezier(.63,-0.78,.26,1.68);
+  -moz-transition: all 1.1s cubic-bezier(.63,-0.78,.26,1.68);
+  -ms-transition: all 1.1s cubic-bezier(.63,-0.78,.26,1.68);
+  -o-transition: all 1.1s cubic-bezier(.63,-0.78,.26,1.68);
+  transition: all 1.1s cubic-bezier(.63,-0.78,.26,1.68);
+ opacity:1;
+-webkit-transform:translate(0px,0px);
+-ms-transform:translate(0px,0px);
+transform:translate(0px,0px)
+}
+
+.wrap-img {
+position:absolute;
+left:0;
+top:0;
+right:0;
+z-index:6;
+height:100vh;
+background-image:url("../images/576896a53a9c9e1015d2875a_lebron_main.png");
+background-position:81% 50%;
+background-size:auto 110%;
+background-repeat:no-repeat;
+  -webkit-transition: opacity 0.7s cubic-bezier(.63,-0.78,.26,1.68);
+  -moz-transition: opacity 0.7s cubic-bezier(.63,-0.78,.26,1.68);
+  -ms-transition: opacity 0.7s cubic-bezier(.63,-0.78,.26,1.68);
+  -o-transition: opacity 0.7s cubic-bezier(.63,-0.78,.26,1.68);
+  transition: opacity 0.7s cubic-bezier(.63,-0.78,.26,1.68);
+  opacity: 1;
+}
+
+.sub {
+display:none
+}
+
+.sec {
+display:-webkit-box;
+display:-webkit-flex;
+display:-ms-flexbox;
+display:flex
+}
+
+.sec.news {
+height:70vh;
+-webkit-box-pack:center;
+-webkit-justify-content:center;
+-ms-flex-pack:center;
+justify-content:center;
+-webkit-box-align:center;
+-webkit-align-items:center;
+-ms-flex-align:center;
+align-items:center
+}
+
+.sec.players {
+position:relative;
+z-index:45;
+background-color:rgba(0,0,0,.95)
+}
+
+.title {
+margin-top:0;
+font-family:Arial,'Helvetica Neue',Helvetica,sans-serif;
+font-size:32px;
+line-height:36px;
+letter-spacing:1px
+}
+
+.title.king {
+position:relative;
+top:5%;
+overflow:visible;
+margin-top:0;
+margin-bottom:10px;
+padding-top:5%;
+float:none;
+clear:none;
+direction:ltr;
+font-family:Varela,sans-serif;
+color:#cec98c;
+font-size:58vh;
+line-height:36vh;
+text-align:center;
+letter-spacing:1px;
+text-decoration:none;
+text-transform:none
+}
+
+.title.jam {
+position:relative;
+display:inline-block;
+overflow:visible;
+margin-bottom:10px;
+padding-left:28%;
+float:none;
+clear:none;
+direction:ltr;
+font-family:Impact,Haettenschweiler,'Franklin Gothic Bold',Charcoal,sans-serif;
+color:#fff;
+font-size:14vh;
+line-height:17vh;
+font-weight:300;
+text-align:left;
+letter-spacing:-3px;
+text-decoration:none;
+text-transform:uppercase
+}
+
+.title.jam.es {
+position:relative;
+z-index:300;
+display:inline-block;
+overflow:visible;
+margin-bottom:10px;
+padding-left:0;
+float:none;
+clear:none;
+direction:ltr;
+line-height:26vh;
+text-align:left;
+text-decoration:none;
+text-transform:uppercase
+}
+
+.title.jam.james {
+position:relative;
+left:0;
+top:-10vh;
+z-index:3000;
+display:block;
+overflow:visible;
+margin-bottom:0;
+margin-left:0;
+padding-left:28%;
+float:none;
+clear:none;
+font-size:15vh;
+font-weight:500;
+text-align:left;
+letter-spacing:4px;
+text-transform:uppercase
+}
+
+.title.jam.james.sub {
+position:relative;
+left:0;
+top:-10vh;
+z-index:6;
+overflow:visible;
+padding-left:28%;
+float:none;
+clear:none;
+border-top:1px solid #fff;
+font-size:1.5vh;
+line-height:4vh;
+text-align:left;
+letter-spacing:4px
+}
+
+.fixed-video {
+position:fixed;
+left:0;
+top:0;
+right:0;
+display:block;
+overflow:visible;
+width:100%;
+height:100%;
+min-height:0;
+min-width:0;
+background-color:#0098ff
+}
+
+.overlayer {
+position:relative;
+z-index:5;
+width:100%;
+height:100vh;
+background-color:rgba(29,29,29,.8)
+}
+
+.video {
+  
+
+ position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%; 
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+   background-size: cover;
+  transition: 1s opacity;
+  
+
+   }
+
+.col-flex {
+position:static;
+z-index:16;
+height:300px;
+-webkit-box-flex:1;
+-webkit-flex:1;
+-ms-flex:1;
+flex:1
+}
+
+.col-flex.left {
+position:relative;
+display:block;
+height:2100px;
+background-color:transparent;
+-webkit-perspective:2000px;
+perspective:2000px
+}
+
+.col-flex.right {
+position:relative;
+z-index:13;
+display:-webkit-box;
+display:-webkit-flex;
+display:-ms-flexbox;
+display:flex;
+height:2100px;
+-webkit-box-orient:vertical;
+-webkit-box-direction:normal;
+-webkit-flex-direction:column;
+-ms-flex-direction:column;
+flex-direction:column;
+-webkit-box-pack:start;
+-webkit-justify-content:flex-start;
+-ms-flex-pack:start;
+justify-content:flex-start;
+-webkit-box-align:center;
+-webkit-align-items:center;
+-ms-flex-align:center;
+align-items:center;
+-webkit-align-self:flex-start;
+-ms-flex-item-align:start;
+align-self:flex-start;
+background-color:transparent
+}
+
+.col-flex.base {
+height:auto;
+-webkit-align-self:center;
+-ms-flex-item-align:center;
+align-self:center;
+text-align:right
+}
+
+.col-flex.base.news {
+padding-top:65px;
+padding-bottom:65px;
+border:1px solid #000
+}
+
+.img-bron {
+position:absolute;
+left:0;
+right:0;
+bottom:0;
+z-index:67;
+width:auto;
+height:85%;
+background-image:url("http://uploads.webflow.com/576acfb681c75aa24d8ec4b0/579c77f827a52b781ae238cf_5775984546007c530c71a5c1_img-lebron.png");
+background-position:50% 50%;
+background-size:contain;
+background-repeat:no-repeat;
+text-decoration:line-through;
+  opacity:0;
+ -webkit-transform:translate(-50%,0px);
+-ms-transform:translate(-50%,0px);
+transform:translate(-50%,0px);
+  -webkit-transition: all 1.1s ease-in;
+  -moz-transition: all 1.1s ease-in;
+  -ms-transition: all 1.1s ease-in;
+  -o-transition: all 1.1s ease-in;
+  transition: all 1.1s ease-in;
+}
+
+.bg-white {
+position:absolute;
+left:0;
+right:0;
+bottom:0;
+height:60%;
+background-color:hsla(0,0%,100%,.98);
+-webkit-perspective:2000px;
+perspective:2000px
+  -webkit-transition: 1.1s ease;
+  -moz-transition: 1.1s ease;
+  -ms-transition: 1.1s ease;
+  -o-transition: 1.1s ease;
+  transition: 1.1s ease;
+  -webkit-transform:rotateX(50deg) rotateY(0deg) rotateZ(0deg);
+transform:rotateX(50deg) rotateY(0deg) rotateZ(0deg)
+}
+
+.number {
+position:relative;
+left:0;
+bottom:0;
+font-family:Impact,Haettenschweiler,'Franklin Gothic Bold',Charcoal,sans-serif;
+color:#fff;
+font-size:22vh;
+line-height:20vh;
+font-weight:700;
+text-transform:uppercase
+}
+
+.number.side {
+left:0;
+top:-36%;
+bottom:auto;
+font-family:Impact,Haettenschweiler,'Franklin Gothic Bold',Charcoal,sans-serif;
+font-size:65vh;
+line-height:63vh;
+text-align:left
+}
+
+.number.one {
+left:-3%;
+margin-bottom:-5px;
+font-size:21vh;
+line-height:18vh
+}
+
+.number.mid {
+left:0;
+bottom:0;
+font-family:Lato,sans-serif;
+color:#333;
+font-size:32px;
+line-height:40px;
+font-weight:300;
+text-transform:none
+}
+
+.number.mid.score {
+-webkit-box-flex:0;
+-webkit-flex:0 0 auto;
+-ms-flex:0 0 auto;
+flex:0 0 auto;
+font-size:80px;
+line-height:70px;
+font-weight:700;
+text-decoration:none
+}
+
+.wrap-graphs {
+position:relative;
+z-index:98;
+display:block;
+width:80%;
+-webkit-box-flex:1;
+-webkit-flex:1;
+-ms-flex:1;
+flex:1; 
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+  opacity:0;
+-webkit-transform:translate(50%,0px);
+-ms-transform:translate(50%,0px);
+transform:translate(50%,0px)
+}
+
+.cel {
+position:relative;
+z-index:23;
+display:-webkit-box;
+display:-webkit-flex;
+display:-ms-flexbox;
+display:flex;
+height:auto;
+max-width:100%;
+margin-top:2%;
+margin-bottom:6%;
+padding:16px 12px;
+-webkit-box-align:center;
+-webkit-align-items:center;
+-ms-flex-align:center;
+align-items:center;
+border:1px none red;
+background-color:transparent
+}
+
+.cel.heading {
+left:0;
+top:0;
+right:0;
+width:100%;
+height:40%;
+margin-top:0;
+margin-bottom:10%;
+padding-bottom:0;
+padding-left:0;
+-webkit-box-orient:horizontal;
+-webkit-box-direction:normal;
+-webkit-flex-direction:row;
+-ms-flex-direction:row;
+flex-direction:row;
+-webkit-box-pack:start;
+-webkit-justify-content:flex-start;
+-ms-flex-pack:start;
+justify-content:flex-start;
+-webkit-box-align:end;
+-webkit-align-items:flex-end;
+-ms-flex-align:end;
+align-items:flex-end
+}
+
+.cel.game {
+width:80%;
+max-width:650px;
+margin-right:auto;
+margin-bottom:30px;
+padding:20px 0;
+-webkit-box-align:start;
+-webkit-align-items:flex-start;
+-ms-flex-align:start;
+align-items:flex-start;
+border-color:#fff
+}
+
+.wrap-graph {
+height:auto;
+padding-top:10px;
+padding-right:0;
+padding-left:0;
+-webkit-box-flex:1;
+-webkit-flex:1;
+-ms-flex:1;
+flex:1;
+ 
+}
+
+.wrap-graph.score {
+display:-webkit-box;
+display:-webkit-flex;
+display:-ms-flexbox;
+display:flex;
+width:100%;
+margin-right:0;
+margin-left:0;
+padding-top:0;
+padding-right:0;
+padding-left:0;
+-webkit-box-orient:vertical;
+-webkit-box-direction:normal;
+-webkit-flex-direction:column;
+-ms-flex-direction:column;
+flex-direction:column;
+-webkit-box-pack:start;
+-webkit-justify-content:flex-start;
+-ms-flex-pack:start;
+justify-content:flex-start;
+-webkit-box-align:center;
+-webkit-align-items:center;
+-ms-flex-align:center;
+align-items:center;
+-webkit-align-self:flex-end;
+-ms-flex-item-align:end;
+align-self:flex-end;
+-webkit-box-flex:0;
+-webkit-flex:0 auto;
+-ms-flex:0 auto;
+flex:0 auto;
+text-align:center
+}
+
+.wrap-graph.score.ca {
+border-left:1px solid rgba(0,0,0,.2)
+}
+
+.box-logo {
+width:15%;
+height:80px;
+border:1px solid #000
+}
+
+.box-logo._02 {
+width:170px;
+height:120px;
+border-style:none;
+background-image:url(../images/576c241286726f620f3f7fc7_Golden_State_Warriors_logo.svg.png);
+background-position:50% 50%;
+background-size:42%;
+background-repeat:no-repeat;
+text-decoration:line-through
+}
+
+.box-logo._01 {
+width:170px;
+height:120px;
+border-style:none;
+background-image:url(../images/576c23f556781b9d0fb1e97e_Cleveland_Cavaliers_2010.svg.png);
+background-position:50% 50%;
+background-size:75%;
+background-repeat:no-repeat
+}
+
+.box-score {
+display:-webkit-box;
+display:-webkit-flex;
+display:-ms-flexbox;
+display:flex;
+-webkit-box-pack:center;
+-webkit-justify-content:center;
+-ms-flex-pack:center;
+justify-content:center;
+-webkit-box-flex:1;
+-webkit-flex:1;
+-ms-flex:1;
+flex:1;
+text-align:right
+}
+
+.team-name {
+font-family:Oswald,sans-serif;
+color:#7e7777;
+font-size:18px;
+line-height:47px;
+font-weight:700
+}
+
+.cel-stats {
+position:relative;
+z-index:25;
+display:-webkit-box;
+display:-webkit-flex;
+display:-ms-flexbox;
+display:flex;
+width:100%;
+height:120px;
+max-width:700px;
+-webkit-box-align:center;
+-webkit-align-items:center;
+-ms-flex-align:center;
+align-items:center;
+border:1px solid #cecece;
+text-align:center
+}
+
+.cel-stats.recent {
+height:auto;
+max-width:650px;
+margin-bottom:55px;
+-webkit-box-orient:vertical;
+-webkit-box-direction:normal;
+-webkit-flex-direction:column;
+-ms-flex-direction:column;
+flex-direction:column;
+-webkit-box-pack:start;
+-webkit-justify-content:flex-start;
+-ms-flex-pack:start;
+justify-content:flex-start;
+-webkit-box-align:center;
+-webkit-align-items:center;
+-ms-flex-align:center;
+align-items:center;
+border-style:none
+}
+
+.row {
+display:-webkit-box;
+display:-webkit-flex;
+display:-ms-flexbox;
+display:flex;
+padding-top:6px;
+padding-bottom:6px;
+-webkit-align-self:stretch;
+-ms-flex-item-align:stretch;
+align-self:stretch;
+-webkit-box-flex:1;
+-webkit-flex:1;
+-ms-flex:1;
+flex:1;
+border-bottom:1px solid #e7e7e7
+}
+
+.date {
+-webkit-align-self:center;
+-ms-flex-item-align:center;
+align-self:center;
+font-family:'Droid Sans',sans-serif;
+color:#ada3a3;
+text-transform:uppercase
+}
+
+.wrap-score {
+display:-webkit-box;
+display:-webkit-flex;
+display:-ms-flexbox;
+display:flex;
+-webkit-box-pack:center;
+-webkit-justify-content:center;
+-ms-flex-pack:center;
+justify-content:center;
+-webkit-box-align:center;
+-webkit-align-items:center;
+-ms-flex-align:center;
+align-items:center;
+-webkit-align-self:center;
+-ms-flex-item-align:center;
+align-self:center;
+-webkit-box-flex:1;
+-webkit-flex:1;
+-ms-flex:1;
+flex:1
+}
+
+.logo {
+width:45px;
+height:45px;
+margin-right:25px;
+margin-left:25px
+}
+
+.logo._02 {
+background-image:url(../images/576c241286726f620f3f7fc7_Golden_State_Warriors_logo.svg.png);
+background-position:50% 50%;
+background-size:contain;
+background-repeat:no-repeat
+}
+
+.logo._01 {
+background-image:url(../images/576c23f556781b9d0fb1e97e_Cleveland_Cavaliers_2010.svg.png);
+background-position:50% 50%;
+background-size:contain;
+background-repeat:no-repeat
+}
+
+.score {
+margin-right:12px;
+margin-left:12px;
+font-family:Montserrat,sans-serif;
+color:#837e7e;
+font-size:20px;
+font-weight:700
+}
+
+.score.winner {
+color:#000
+}
+
+.box-season {
+position:relative;
+z-index:65;
+display:-webkit-box;
+display:-webkit-flex;
+display:-ms-flexbox;
+display:flex;
+height:auto;
+max-width:650px;
+-webkit-box-pack:start;
+-webkit-justify-content:flex-start;
+-ms-flex-pack:start;
+justify-content:flex-start;
+-webkit-box-align:stretch;
+-webkit-align-items:stretch;
+-ms-flex-align:stretch;
+align-items:stretch
+}
+
+.col-graph {
+padding-right:40px;
+-webkit-align-self:stretch;
+-ms-flex-item-align:stretch;
+align-self:stretch;
+-webkit-box-flex:1;
+-webkit-flex:1;
+-ms-flex:1;
+flex:1
+}
+
+.col-graph._02 {
+padding-left:40px;
+border-left:1px solid rgba(0,0,0,.2)
+}
+
+.main-season-text {
+color:#706767;
+font-size:17px;
+font-weight:700;
+text-transform:capitalize
+}
+
+.subtitle {
+font-family:'PT Sans',sans-serif;
+color:#928888;
+font-size:12px
+}
+
+.bar {
+width:auto;
+height:8px;
+margin-bottom:10px;
+background-color:hsla(210,7%,84%,.7)
+}
+
+.filled {
+width:80%;
+height:100%;
+background-color:#91d58b
+}
+
+.h1-news {
+position:relative;
+z-index:65;
+font-family:Arial,'Helvetica Neue',Helvetica,sans-serif;
+color:#fff;
+font-size:38vh;
+line-height:38vh;
+letter-spacing:-10px;
+text-transform:uppercase
+}
+
+.wrap-news {
+display:block;
+width:80%;
+margin-right:auto;
+margin-left:auto;
+-webkit-perspective:2000px;
+perspective:2000px
+}
+
+.b-news {
+position:static;
+display:-webkit-box;
+display:-webkit-flex;
+display:-ms-flexbox;
+display:flex;
+width:31%;
+height:330px;
+margin-right:1%;
+margin-bottom:2%;
+margin-left:1%;
+padding-right:4%;
+padding-left:4%;
+float:left;
+-webkit-box-orient:vertical;
+-webkit-box-direction:normal;
+-webkit-flex-direction:column;
+-ms-flex-direction:column;
+flex-direction:column;
+-webkit-box-pack:center;
+-webkit-justify-content:center;
+-ms-flex-pack:center;
+justify-content:center;
+-webkit-box-align:stretch;
+-webkit-align-items:stretch;
+-ms-flex-align:stretch;
+align-items:stretch;
+background-color:#141414;
+-webkit-transition:background-color 200ms ease,-webkit-transform 200ms ease;
+transition:background-color 200ms ease,-webkit-transform 200ms ease;
+transition:background-color 200ms ease,transform 200ms ease;
+transition:background-color 200ms ease,transform 200ms ease,-webkit-transform 200ms ease;
+font-family:Merriweather,serif;
+color:grey;
+font-size:30px;
+line-height:40px;
+font-weight:400;
+text-align:left;
+text-decoration:none
+}
+
+.b-news:hover {
+background-color:#fff;
+-webkit-transform:rotateX(0deg) rotateY(-17deg) rotateZ(0deg) rotateX(5deg) rotateY(0deg) rotateZ(0deg);
+transform:rotateX(0deg) rotateY(-17deg) rotateZ(0deg) rotateX(5deg) rotateY(0deg) rotateZ(0deg);
+color:#3d3d3d
+}
+
+.paragraph {
+color:#afa9a9;
+font-size:38px;
+line-height:42px;
+letter-spacing:0
+}
+
+.source {
+display:-webkit-box;
+display:-webkit-flex;
+display:-ms-flexbox;
+display:flex;
+color:#585555;
+font-size:12px;
+line-height:12px
+}
+
+.number-main {
+font-family:Impact,Haettenschweiler,'Franklin Gothic Bold',Charcoal,sans-serif;
+color:#fff;
+font-size:25vh;
+line-height:21vh
+}
+
+.number-main.one {
+position:static;
+left:-1px;
+top:0;
+font-size:22vh; 
+line-height:20vh;
+text-transform:uppercase
+}
+
+ 
+
+ 
+
+ 
+
+.active-bg-white {
+ -webkit-transform:rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+transform:rotateX(0deg) rotateY(0deg) rotateZ(0deg)
+}
+.active-img-bron {
+  opacity:1;
+-webkit-transform:translate(0px,0px);
+-ms-transform:translate(0px,0px);
+-moz-transform:translate(0px,0px);
+transform:translate(0px,0px)
+}
+.active-wrap-graphs {
+  opacity:1;
+-webkit-transform:translate(0px,0px);
+-ms-transform:translate(0px,0px);
+transform:translate(0px,0px)
+}
+
+.rotate-wrap-hero {
+   -webkit-transform:rotateX(-45deg) rotateY(0deg)     rotateZ(0deg);
+    transform:rotateX(-45deg) rotateY(0deg) rotateZ(0deg)
+ }
+.hidden-wrap-img {
+  opacity: 0.5;
+}
+
+
+ 
+@media (max-width: 991px) {
+.sec {
+-webkit-box-orient:vertical;
+-webkit-box-direction:normal;
+-webkit-flex-direction:column;
+-ms-flex-direction:column;
+flex-direction:column
+}
+
+.sec.news {
+background-color:#ffeb00
+}
+
+.title.king {
+font-size:251px
+}
+
+.title.jam {
+display:none
+}
+
+.title.jam.es {
+display:none
+}
+
+.title.jam.james {
+display:none
+}
+
+.fixed-video {
+display:none
+}
+
+.col-flex.left {
+z-index:16;
+display:none
+}
+
+.col-flex.right {
+width:100%;
+height:auto;
+padding-top:85px;
+padding-bottom:85px;
+-webkit-align-self:flex-start;
+-ms-flex-item-align:start;
+align-self:flex-start;
+-webkit-box-flex:0;
+-webkit-flex:0 0 auto;
+-ms-flex:0 0 auto;
+flex:0 0 auto;
+text-align:center
+}
+
+.wrap-graphs {
+width:auto
+}
+
+.cel.heading {
+display:none
+}
+
+.cel.game {
+width:100%;
+max-width:100%;
+-webkit-box-align:center;
+-webkit-align-items:center;
+-ms-flex-align:center;
+align-items:center
+}
+
+.box-season {
+float:none;
+text-align:left
+}
+
+.col-graph._02 {
+padding-right:0
+}
+
+.main-season-text {
+text-align:center
+}
+
+.h1-news {
+letter-spacing:-29px
+}
+
+.wrap-news {
+width:100%
+}
+
+.b-news {
+position:static;
+height:300px;
+font-size:20px;
+line-height:30px
+}
+}
+
+@media (max-width: 767px) {
+.sec.news {
+background-color:#ff8500
+}
+
+.title.jam.james {
+display:none
+}
+
+.fixed-video {
+display:none
+}
+
+.col-flex.left {
+display:none
+}
+
+.number.mid {
+font-size:42px;
+font-weight:300
+}
+
+.number.mid.score {
+display:block;
+margin-right:0;
+margin-left:0;
+font-size:50px;
+text-align:center
+}
+
+.wrap-graphs {
+display:-webkit-box;
+display:-webkit-flex;
+display:-ms-flexbox;
+display:flex;
+-webkit-box-orient:vertical;
+-webkit-box-direction:normal;
+-webkit-flex-direction:column;
+-ms-flex-direction:column;
+flex-direction:column;
+-webkit-box-pack:center;
+-webkit-justify-content:center;
+-ms-flex-pack:center;
+justify-content:center;
+-webkit-box-align:center;
+-webkit-align-items:center;
+-ms-flex-align:center;
+align-items:center
+}
+
+.cel.game {
+width:95%;
+margin-right:0;
+-webkit-box-pack:start;
+-webkit-justify-content:flex-start;
+-ms-flex-pack:start;
+justify-content:flex-start;
+-webkit-box-align:center;
+-webkit-align-items:center;
+-ms-flex-align:center;
+align-items:center
+}
+
+.wrap-graph.score {
+padding-top:10px
+}
+
+.wrap-graph.score.ca {
+text-align:center
+}
+
+.box-logo._02 {
+display:block;
+font-size:14px;
+text-decoration:none
+}
+
+.cel-stats.recent {
+display:block;
+width:95%;
+margin-right:auto;
+margin-left:auto
+}
+
+.h1-news {
+font-size:20vh;
+letter-spacing:-8px
+}
+}
+
+@media (max-width: 479px) {
+.wrap-hero {
+display:-webkit-box;
+display:-webkit-flex;
+display:-ms-flexbox;
+display:flex;
+overflow:hidden;
+-webkit-box-align:start;
+-webkit-align-items:flex-start;
+-ms-flex-align:start;
+align-items:flex-start
+}
+
+.wrap-img {
+background-position:68% 0;
+background-size:cover
+}
+
+.sec {
+display:block;
+height:auto
+}
+
+.sec.news {
+height:auto;
+background-color:#fff
+}
+
+.title.king {
+display:block;
+margin-right:auto;
+margin-left:auto;
+font-size:136px;
+line-height:1em
+}
+
+.title.jam.james {
+display:none
+}
+
+.col-flex.right {
+display:-webkit-box;
+display:-webkit-flex;
+display:-ms-flexbox;
+display:flex;
+-webkit-box-align:stretch;
+-webkit-align-items:stretch;
+-ms-flex-align:stretch;
+align-items:stretch
+}
+
+.col-flex.base.news {
+display:-webkit-box;
+display:-webkit-flex;
+display:-ms-flexbox;
+display:flex;
+-webkit-box-orient:vertical;
+-webkit-box-direction:normal;
+-webkit-flex-direction:column;
+-ms-flex-direction:column;
+flex-direction:column
+}
+
+.number.mid {
+font-size:35px;
+text-align:center
+}
+
+.wrap-graphs {
+display:block;
+width:auto;
+-webkit-align-self:stretch;
+-ms-flex-item-align:stretch;
+align-self:stretch
+}
+
+.cel.game {
+width:100%
+}
+
+.wrap-graph.score {
+margin-right:0;
+margin-left:0
+}
+
+.box-logo._02 {
+width:90%
+}
+
+.box-logo._01 {
+width:90%
+}
+
+.team-name {
+font-family:Merriweather,serif;
+font-size:11px;
+line-height:20px;
+font-weight:300
+}
+
+.cel-stats.recent {
+display:block
+}
+
+.date {
+font-size:10px;
+text-transform:uppercase
+}
+
+.logo._02 {
+margin-right:0;
+margin-left:0
+}
+
+.logo._01 {
+margin-right:0;
+margin-left:0
+}
+
+.col-graph {
+padding-right:10px;
+padding-left:10px
+}
+
+.col-graph._02 {
+padding-right:10px;
+padding-left:10px
+}
+
+.main-season-text {
+font-size:12px
+}
+
+.subtitle {
+text-align:center
+}
+
+.bar {
+display:block;
+width:120px;
+height:9px;
+margin-right:auto;
+margin-left:auto
+}
+
+.h1-news {
+font-family:Oswald,sans-serif;
+color:#474545;
+font-size:16vh;
+text-align:center;
+letter-spacing:-5px
+}
+
+.wrap-news {
+width:90%
+}
+
+.b-news {
+width:100%;
+height:auto;
+padding:16%;
+font-size:24px
+}
+}
